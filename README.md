@@ -6,17 +6,7 @@ Paper: Coming soon!
 
 ## Usage
 
-We include the captions and images in `data/{train, test}.json` and `data/images.zip` respectively. Alternatively, you can download the dataset directly from the Hugging Face API with the following code:
-
-```python
-from datasets import load_dataset
-
-dataset = load_dataset("Top34051/colorswap", use_auth_token=True)
-```
-
-Please make sure to install the `datasets` library and use the `use_auth_token` parameter to authenticate with the Hugging Face API.
-
-An example of the dataset is as follows:
+First, please download the dataset from https://drive.google.com/file/d/1xdG94DQdz_eQVH1lrEeaHVz_BNkrVgb5/view?usp=sharing and extract the files to the `data` folder. We include the captions and images in `data/{train, test}.json` and `data/images.zip` respectively. An example of the dataset is as follows:
 
 ```python
 [
@@ -32,6 +22,16 @@ An example of the dataset is as follows:
     ...
 ]
 ```
+
+Alternatively, you can download the dataset directly from the Hugging Face API with the following code:
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("Top34051/colorswap", use_auth_token=True)
+```
+
+Please make sure to install the `datasets` library and use the `use_auth_token` parameter to authenticate with the Hugging Face API.
 
 ## Evaluations
 
