@@ -1,6 +1,6 @@
 # ColorSwap: A Color and Word Order Dataset for Multimodal Evaluation
 
-ColorSwap is a novel dataset designed to assess and improve the proficiency of multimodal models in matching objects with their colors. The dataset is comprised of 2,000 unique image-caption pairs, grouped into 1,000 examples. Each example includes a caption-image pair, along with a "color-swapped" pair. Crucially, the two captions in an example have the same words, but the color words have been rearranged to modify different objects. The dataset was created through a novel blend of automated caption and image generation with humans in the loop. 
+ColorSwap is a dataset designed to assess and improve the proficiency of multimodal models in matching objects with their colors. The dataset is comprised of 2,000 unique image-caption pairs, grouped into 1,000 examples. Each example includes a caption-image pair, along with a "color-swapped" pair. Crucially, the two captions in an example have the same words, but the color words have been rearranged to modify different objects. The dataset was created through a novel blend of automated caption and image generation with humans in the loop. 
 
 Paper: Coming soon!
 
