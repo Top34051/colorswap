@@ -28,7 +28,7 @@ Alternatively, you can download the dataset directly from the Hugging Face API w
 ```python
 from datasets import load_dataset
 
-dataset = load_dataset("Top34051/colorswap", use_auth_token=True)
+dataset = load_dataset("stanfordnlp/colorswap", use_auth_token=True)
 ```
 
 Please make sure to install the `datasets` library and use the `use_auth_token` parameter to authenticate with the Hugging Face API.
